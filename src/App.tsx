@@ -1,10 +1,9 @@
-import Teste from './components/specific/Teste';
+import Todo from './components/specific/Todo';
 
 function App() {
   return (
     <div>
-      <h1>Ola mundo</h1>
-      <Teste />
+      <Todo />
     </div>
   );
 }
