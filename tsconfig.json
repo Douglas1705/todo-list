@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "composite": true,  // Necessário para referências de projeto
+      "typeRoots": ["./src/types", "./node_modules/@types"]
+    },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

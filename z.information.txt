@@ -1,0 +1,33 @@
+Para gerar a build do projeto
+- npm run build
+
+Para usar o Prettier para formatar o projeto
+- npm run format
+
+Para usar o Eslint para verificar
+- npm run lint
+
+
+///  PAGE GITHUB ///
+Para colocar na page do github
+
+- em package.json
+
+-- baixe 
+	npm install gh-pages --save-dev
+
+-- no primeiro componente
+    homepage": "https://Douglas1705.github.io/<nome do repositorio>",
+
+-- em scripts 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+
+- em vitecongig
+     base: '/spotify-clone-react',
+
+- usar o npm run deploy para enviar para o github o deploy
+
+- no github SETTINGS > PAGES > GH-PAGE ./ROOT
+
+/// FINAL PAGE GITHUB ///
