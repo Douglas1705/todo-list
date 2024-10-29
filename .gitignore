@@ -32,5 +32,4 @@ tsconfig.app.json
 tsconfig.app.tsbuildinfo
 tsconfig.node.json
 tsconfig.node.tsbuildinfo
-vite.config.ts
 z.information.txt
