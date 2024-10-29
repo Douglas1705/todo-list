@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Global css */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color:whitesmoke;
+}
+
+#root{
+    height: 100%;
+}
